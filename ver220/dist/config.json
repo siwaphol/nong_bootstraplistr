@@ -1,0 +1,146 @@
+{
+  "general": {
+    "root_dir":         ".",
+    "dependencies":     "cdn",
+    "locale":           "en_US",
+    "text_direction":   "ltr",
+    "enable_sort":      true,
+    "enable_viewer":    false,
+    "enable_search":    true,
+    "enable_add":    true,
+    "enable_highlight": false,
+    "auto_highlight":   false,
+    "autofocus_search": false,
+    "share_button":     false,
+    "share_icons":      false,
+    "hide_dotfiles":    true,
+    "hide_extension":   false,
+    "virtual_files":    false,
+    "virtual_maxsize":  256,
+    "custom_title":     null,
+    "read_chunks":      false,
+    "give_kudos":       false
+  },
+  "assets": {
+    "jquery":          "//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
+    "bootstrap_css":   "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css",
+    "bootstrap_js":    "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js",
+    "bootswatch_css":  "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.5/%theme%/bootstrap.min.css",
+    "m8tro_css":       "//cdn.jsdelivr.net/bootstrap.m8tro/3.3.5/m8tro.min.css",
+    "font_awesome":    "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
+    "google_font":     null,
+    "stupid_table":    "//cdnjs.cloudflare.com/ajax/libs/stupidtable/0.0.1/stupidtable.min.js",
+    "searcher":        "//cdnjs.cloudflare.com/ajax/libs/jquery-searcher/0.2.0/jquery.searcher.min.js",
+    "highlight_js":    "//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js",
+    "highlight_css":   "//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/github.min.css",
+    "bootlint":        "//maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js",
+    "custom_theme":    null,
+    "append_css":      [
+      null
+    ],
+    "append_js":       [
+      null
+    ]
+  },
+  "bootstrap": {
+    "fluid_grid":        false,
+    "table_style":       "table-hover",
+    "breadcrumb_style":  null,
+    "responsive_table":  true,
+    "modal_size":        "modal-lg",
+    "button_primary":    "btn-primary",
+    "button_default":    "btn-default",
+    "button_highlight":  "btn-link",
+    "column_name":       "col-lg-8",
+    "column_size":       "col-lg-2",
+    "column_age":        "col-lg-2",
+    "input_size":        null,
+    "tablerow_folder":   null,
+    "tablerow_links":    null,
+    "tablerow_files":    null,
+    "hidden_files_row":  "text-muted",
+    "hidden_files_link": "text-muted",
+    "theme":             "default",
+    "icons":             "glyphicons",
+    "fontawesome_style": "fa-fw"
+  },
+  "viewer": {
+    "alt_load":  false,
+    "audio":     "m4a,mp3,oga,ogg,webma,wav",
+    "image":     "gif,ico,jpe,jpeg,jpg,png,svg,webp",
+    "pdf":       "pdf",
+    "quicktime": "3g2,3gp,3gp2,3gpp,mov,qt",
+    "source":    "atom,bat,cmd,css,hml,jade,js,json,less,markdown,md,php,pl,py,rb,rss,rst,sass,scpt,scss,sh,xml,yml",
+    "text":      "txt",
+    "video":     "mp4,m4v,ogv,webm",
+    "virtual":   "flickr,soundcloud,vimeo,youtube",
+    "website":   "htm,html,mhtm,mhtml,xhtm,xhtml"
+  },
+  "highlight": {
+    "theme": "github"
+  },
+  "keys": {
+    "dropbox":          null,
+    "google_analytics": null
+  },
+  "icons": {
+    "ios_version":      8,
+    "fav_icon":         null,
+    "iphone":           null,
+    "iphone_retina":    null,
+    "ipad":             null,
+    "ipad_retina":      null,
+    "metro_tile_color": null,
+    "metro_tile_image": null
+  },
+  "opengraph": {
+    "title":       null,
+    "description": null,
+    "site_name":   null,
+    "type":        null,
+    "image":       null
+  },
+  "columns": {
+    "size": false,
+    "age":  false
+  },
+  "database":{
+    "host": "localhost",
+    "user" : "root",
+    "pass" : "",
+      "db" : "test"
+  },
+  "ignored_files": [
+    ".bzr",
+    ".DAV",
+    ".DS_Store",
+    ".git",
+    ".hg",
+    ".htaccess",
+    ".htpasswd",
+    ".listr",
+    ".Spotlight-V100",
+    ".svn",
+    "__MACOSX",
+    "ehthumbs.db",
+    "Thumbs.db",
+    "thumbs.tps"
+  ],
+   "hidden_files": [
+    ".bzrignore",
+    ".bzrtags",
+    ".gitattributes",
+    ".gitignore",
+    ".gitmodules",
+    ".hgignore",
+    ".hgtags",
+    ".htaccess",
+    ".htpasswd",
+    ".jshintrc",
+    ".npmignore",
+    "robots.txt"
+   ],
+  "debug": {
+    "bootlint": false
+  }
+}
